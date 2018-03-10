@@ -3,7 +3,7 @@
     "id": "1",
     "author": "Imi",
     "title": "We departed",
-    "date": 1520679957,
+    "date": 1520679957000,
     "image": "http://via.placeholder.com/350x150",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet odio et justo rutrum fringilla. Pellentesque aliquam dolor in libero malesuada, eget tristique justo aliquam. In hac habitasse platea dictumst. Maecenas eleifend lectus purus. Etiam tristique odio nunc, sed elementum massa gravida nec. Nunc sed odio nec massa varius pretium in a urna. Maecenas sit amet nisi tortor. Integer eu eros non mauris suscipit fermentum eget in mauris. Nulla eu nulla et ipsum pulvinar sagittis. Nam cursus sodales arcu, vitae pulvinar libero ultrices ut. Vivamus volutpat nec lectus eu ultrices."
   },
@@ -11,7 +11,7 @@
     "id": "2",
     "author": "Lori",
     "title": "We arrived",
-    "date": 1521716757,
+    "date": 1521716757000,
     "image": "http://via.placeholder.com/1920x1080",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet odio et justo rutrum fringilla. Pellentesque aliquam dolor in libero malesuada, eget tristique justo aliquam. In hac habitasse platea dictumst. Maecenas eleifend lectus purus. Etiam tristique odio nunc, sed elementum massa gravida nec. Nunc sed odio nec massa varius pretium in a urna. Maecenas sit amet nisi tortor. Integer eu eros non mauris suscipit fermentum eget in mauris. Nulla eu nulla et ipsum pulvinar sagittis. Nam cursus sodales arcu, vitae pulvinar libero ultrices ut. Vivamus volutpat nec lectus eu ultrices."
   },
@@ -19,7 +19,7 @@
     "id": "3",
     "author": "Imi",
     "title": "Friday night surfing",
-    "date": 1522753557,
+    "date": 1522753557000,
     "image": "http://via.placeholder.com/600x400",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet odio et justo rutrum fringilla. Pellentesque aliquam dolor in libero malesuada, eget tristique justo aliquam. In hac habitasse platea dictumst. Maecenas eleifend lectus purus. Etiam tristique odio nunc, sed elementum massa gravida nec. Nunc sed odio nec massa varius pretium in a urna. Maecenas sit amet nisi tortor. Integer eu eros non mauris suscipit fermentum eget in mauris. Nulla eu nulla et ipsum pulvinar sagittis. Nam cursus sodales arcu, vitae pulvinar libero ultrices ut. Vivamus volutpat nec lectus eu ultrices."
   },
@@ -27,7 +27,7 @@
     "id": "4",
     "author": "Imi",
     "title": "Saturday hangover",
-    "date": 1524827157,
+    "date": 1524827157000,
     "image": "http://via.placeholder.com/1080x1920",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet odio et justo rutrum fringilla. Pellentesque aliquam dolor in libero malesuada, eget tristique justo aliquam. In hac habitasse platea dictumst. Maecenas eleifend lectus purus. Etiam tristique odio nunc, sed elementum massa gravida nec. Nunc sed odio nec massa varius pretium in a urna. Maecenas sit amet nisi tortor. Integer eu eros non mauris suscipit fermentum eget in mauris. Nulla eu nulla et ipsum pulvinar sagittis. Nam cursus sodales arcu, vitae pulvinar libero ultrices ut. Vivamus volutpat nec lectus eu ultrices."
   },
@@ -35,7 +35,7 @@
     "id": "5",
     "author": "Imi",
     "title": "Sydney",
-    "date": 1529060757,
+    "date": 1529060757000,
     "image": "http://via.placeholder.com/400x600",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet odio et justo rutrum fringilla. Pellentesque aliquam dolor in libero malesuada, eget tristique justo aliquam. In hac habitasse platea dictumst. Maecenas eleifend lectus purus. Etiam tristique odio nunc, sed elementum massa gravida nec. Nunc sed odio nec massa varius pretium in a urna. Maecenas sit amet nisi tortor. Integer eu eros non mauris suscipit fermentum eget in mauris. Nulla eu nulla et ipsum pulvinar sagittis. Nam cursus sodales arcu, vitae pulvinar libero ultrices ut. Vivamus volutpat nec lectus eu ultrices."
   },
@@ -43,7 +43,7 @@
     "id": "6",
     "author": "Imi",
     "title": "Kenguru steak",
-    "date": 1531998357,
+    "date": 1531998357000,
     "image": "http://via.placeholder.com/150x350",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet odio et justo rutrum fringilla. Pellentesque aliquam dolor in libero malesuada, eget tristique justo aliquam. In hac habitasse platea dictumst. Maecenas eleifend lectus purus. Etiam tristique odio nunc, sed elementum massa gravida nec. Nunc sed odio nec massa varius pretium in a urna. Maecenas sit amet nisi tortor. Integer eu eros non mauris suscipit fermentum eget in mauris. Nulla eu nulla et ipsum pulvinar sagittis. Nam cursus sodales arcu, vitae pulvinar libero ultrices ut. Vivamus volutpat nec lectus eu ultrices."
   },
