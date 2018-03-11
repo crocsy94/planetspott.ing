@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import logo from '../../assets/logo.png';
 
 const LogoWrapper = styled.div`
-  padding: 10px;
+  padding: 10px 0px;
   width: 100%;
   text-align: center;
   height: 100px;
