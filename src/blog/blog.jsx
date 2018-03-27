@@ -1,36 +1,29 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Navbar from './navbar/navbar';
+
+// import Header from './header/header';
+// import Intro from './intro/intro';
 import Header from './header/header';
+import Timeline from './timeline/timeline';
 import background from '../assets/background.jpg';
-//only needed for dev
-import data from '../stub/blog_list.json';
 
 const Background = styled.div`
   background-image: url(${background});
-  background-size: cover;
+  padding: 1px;
 `;
 
-var monthArray = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
-
 class Blog extends Component {
-  navbarData(data) {
-    var monthIds = data.map((blogPost) => {
-      return new Date(blogPost.date).getMonth();
-    })
-    var sortedArray = Array.from(new Set(monthIds.sort((a, b) => {return b-a})))
-    var months = sortedArray.map((id) => {
-      return monthArray[id]
-    });
-    return months;
-  };
 
   render() {
     return (
-      <Background>
+      <div>
+        {/* <Header />
+        <Intro /> */}
         <Header />
-        <Navbar months={this.navbarData(data)} />
-      </Background>
+        <Background>
+          <Timeline />
+        </Background>
+      </div>
     );
   }
 }
