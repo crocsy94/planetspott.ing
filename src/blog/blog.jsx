@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+// import Header from './header/header';
+// import Intro from './intro/intro';
 import Header from './header/header';
-import Intro from './intro/intro';
 import Timeline from './timeline/timeline';
 import background from '../assets/background.jpg';
 
 const Background = styled.div`
   background-image: url(${background});
-  height: fit-content;
+  padding: 1px;
 `;
 
 class Blog extends Component {
 
   render() {
     return (
-      <Background>
+      <div>
+        {/* <Header />
+        <Intro /> */}
         <Header />
-        <Intro />
-        <Timeline />
-      </Background>
+        <Background>
+          <Timeline />
+        </Background>
+      </div>
     );
   }
 }

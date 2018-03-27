@@ -1,31 +1,59 @@
 import React, { Component } from 'react';
+import VideoCover from 'react-video-cover';
 import styled from 'styled-components';
-import logo from '../../assets/logo.png';
+import introVideo from '../../assets/intro.mp4';
+import Content from './content/content';
 
-const LogoWrapper = styled.div`
-  padding: 10px 0px;
+const Background = styled.div`
+  position: relative;
+  width: inherit;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const WhiteLayer = styled.div`
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
   width: 100%;
-  text-align: center;
-  height: 100px;
+  height: 100%;
 `;
-
-const Logo = styled.img`
-  height: inherit;
-`;
-
 
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = {  }
+    this.state = {}
   }
-  render() { 
-    return ( 
-      <LogoWrapper>
-        <Logo src={logo} />
-      </LogoWrapper>
+
+  render() {
+    const videoOptions = {
+      src: introVideo,
+      ref: videoRef => {
+        this.videoRef = videoRef;
+      },
+      onClick: () => {
+        if (this.videoRef && this.videoRef.paused) {
+          this.videoRef.play();
+        } else if (this.videoRef) {
+          this.videoRef.pause();
+        }
+      },
+      autoPlay: 'loop',
+    };
+
+    return (
+      <Background>
+        <Content />
+        <WhiteLayer /> 
+        <VideoCover
+          videoOptions={videoOptions}
+        />
+      </Background>
     );
   }
 }
- 
+
 export default Header;
